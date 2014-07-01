@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-PROJECT(QUEUE)
+PROJECT(DS)
 INCLUDE_DIRECTORIES(
     include
     )

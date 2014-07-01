@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/queue.h
+iostream
+-
+stdio.h
+-
+
+/home/wnl/gitcode/ds/src/chain.h
+iostream
+-
+
+/home/wnl/gitcode/ds/src/insertsort.h
+iostream
+-
+
+/home/wnl/gitcode/ds/src/main.cpp
+iostream
+-
+queue.h
+/home/wnl/gitcode/ds/src/queue.h
+queue.cpp
+/home/wnl/gitcode/ds/src/queue.cpp
+chain.h
+/home/wnl/gitcode/ds/src/chain.h
+insertsort.h
+/home/wnl/gitcode/ds/src/insertsort.h
+
+/home/wnl/gitcode/ds/src/queue.cpp
+iostream
+-
+algorithm
+-
+queue.h
+/home/wnl/gitcode/ds/src/queue.h
+

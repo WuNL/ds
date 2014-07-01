@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/ds.dir/main.cpp.o CMakeFiles/ds.dir/queue.cpp.o  -o ds -rdynamic 
